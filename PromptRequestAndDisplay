@@ -1,0 +1,25 @@
+# ArrayManipulation
+
+<head>
+<title> this is a title </title>  
+        <link href="style.css" rel="stylesheet" type="text/css">               
+</head>
+        <body>
+
+                <strong> Written names are </strong>
+        <script>
+        var simpleArray = new Array(5);
+        for(var i=0; i<simpleArray.length; i++)
+       {
+        var takeString = prompt("Enter the names you wish to enter", "");
+        simpleArray[i] = takeString;
+       }
+
+      simpleArray.sort();
+        var displayArray = simpleArray.join("  ");
+
+        document.write(displayArray);
+
+        </script>
+        </body>
+        
